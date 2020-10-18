@@ -5,7 +5,6 @@ public class Jok3rGRE extends Person implements Gamer, Developer {
     public void aboutMe() {
         public String funFact = "I like to develop";
     }
-    
     @Override
     public void codingStuff() {
         public String[] workingOn = ["Hytherium"];
