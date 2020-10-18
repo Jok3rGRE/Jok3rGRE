@@ -10,7 +10,7 @@ public class Jok3rGRE extends Person implements Gamer, Developer {
     @Override
     public void codingStuff() {
         public String[] workingOn = ["Hytherium"];
-        public String[] learning = ["Java", "Unity", "Discord.js"];
+        public String[] languages = ["Java", "Unity", "Discord.js"];
         public String tryingTo = "Be good";
     }
     
