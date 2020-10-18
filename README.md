@@ -1,7 +1,6 @@
 ### Hi there 👋, I'm Jok3rGRE!
 
 public class Jok3rGRE extends Person implements Gamer, Developer {
-    
     @Override
     public void aboutMe() {
         public String funFact = "I like to develop";
