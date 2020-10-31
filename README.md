@@ -15,3 +15,5 @@ public class Jok3rGRE extends Person implements Gamer, Developer {
     }
     
 }
+
+[![Jok3rGR's github stats](https://github-readme-stats.vercel.app/api?username=jok3rgre)](https://github.com/anuraghazra/github-readme-stats)
