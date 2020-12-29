@@ -68,6 +68,4 @@ Hytherium                488 hr 21 mins      ███████████�
 
 ---
 
-  :zap: GitHub Statistics
-  
   <img align="left" alt="Jok3rGR's Github Statistics" src="https://github-readme-stats.vercel.app/api?username=jok3rgre&show_icons=true&hide_border=true&theme=radical" />
