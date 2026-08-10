@@ -4,111 +4,23 @@
 <!--## I'm a YouTuber, Gamer, and Developer!-->
 <br />
 
-```javascript
-class Jok3rGR extends Developer {
-    constructor() {
-        super();
-
-        this.name = "Jok3rGR";
-        this.location = "🇬🇷 Greece";
-        this.roles = [
-            "Software Developer",
-            "Discord Developer",
-            "Game Developer"
-        ];
+```java
+public class Jok3rGR extends Person implements Gamer, Developer {
+    
+    @Override
+    public void aboutMe() {
+        public String funFact = "I play piano";
     }
-
-    get about() {
-        return `
-            👋 Hey! I'm Jok3rGR.
-
-            I build software, Discord bots and games.
-            I enjoy turning ideas into real, usable projects
-            and constantly improving what I build.
-        `;
+    
+    @Override
+    public void codingStuff() {
+        public String[] workingOn = ["Hytherium"];
+        public String[] learning = ["JavaScript", "Discord.JS", "Java"];
+        public String tryingTo = "Be good";
     }
-
-    get currentlyBuilding() {
-        return {
-            "🤖 Hytherium":
-                "Hypixel Discord Bot",
-
-            "🎫 TicketHive":
-                "Discord Ticket & Support System",
-
-            "👻 Eclipsis":
-                "Indie Horror Game",
-
-            "📝 Forms Bot":
-                "Customizable Discord Forms System"
-        };
-    }
-
-    get stack() {
-        return {
-            languages: [
-                "JavaScript",
-                "TypeScript",
-                "C++"
-            ],
-
-            backend: [
-                "Node.js",
-                "Discord.js",
-                "MongoDB",
-                "REST APIs"
-            ],
-
-            frontend: [
-                "React",
-                "Next.js",
-                "HTML",
-                "CSS"
-            ],
-
-            gameDev: [
-                "Unreal Engine",
-                "Blueprints"
-            ]
-        };
-    }
-
-    get interests() {
-        return [
-            "🎮 Game Development",
-            "🤖 Discord Development",
-            "⛏️ Minecraft & Hypixel",
-            "🌐 Web Development",
-            "⚙️ Automation",
-            "🎨 UI / UX"
-        ];
-    }
-
-    get philosophy() {
-        return [
-            "Keep it simple.",
-            "Build for real users.",
-            "Fix problems properly.",
-            "Make everything a little better."
-        ];
-    }
-
-    get funFacts() {
-        return [
-            "🎹 I play piano",
-            "💡 I love building random ideas",
-            "🐛 Bugs are just undocumented features"
-        ];
-    }
-
-    get goal() {
-        return "Build things people actually want to use.";
-    }
+    
 }
-
-const jok3r = new Jok3rGR();
-
-console.log(`👋 Thanks for visiting ${jok3r.name}'s profile!`);``
+```
 <!---   🔭 I’m currently working on Cobalt Minecraft Client
 -   🌱 I’m currently learning Java, Unity, and more!
 -   🤔 I’m trying to make good GUIs in Minecraft Coder Pack
@@ -147,7 +59,7 @@ Java                     68 hr 23 mins       ███████████�
 VS Code                  2.314 hr 43 mins    ████████████████████░░░░░   87% 
 Eclipse                  68 hr 23 mins       ███████████░░░░░░░░░░░░░░   13%
 
-🐱‍💻 Projects: 
+🐱💻 Projects: 
 Hytherium                1.015 hr 21 mins    █████████████████████████   100% 
 ```
 
