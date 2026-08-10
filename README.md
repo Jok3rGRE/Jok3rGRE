@@ -46,24 +46,6 @@ public class Jok3rGR extends Person implements Gamer, Developer {
 <!--➡️ [more posts...][website]-->
 
 ---
-
-<!--START_SECTION:waka-->
-📊 **General Statistics** 
-
-```text
-💬 Programming Languages:
-JavaScript               1.563 hr 37 mins    ███████████████████████░░   92%
-Java                     68 hr 23 mins       ███████████░░░░░░░░░░░░░░   8%
-
-🔥 Editors: 
-VS Code                  2.314 hr 43 mins    ████████████████████░░░░░   87% 
-Eclipse                  68 hr 23 mins       ███████████░░░░░░░░░░░░░░   13%
-
-🐱💻 Projects: 
-Hytherium                1.015 hr 21 mins    █████████████████████████   100% 
-```
-
-
 <!--END_SECTION:waka-->
 
 ---
