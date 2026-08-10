@@ -24,11 +24,15 @@ class Jok3rGR extends Developer {
         and constantly improving what I build.`;
     }
 
-    get currentlyBuilding() {
+    get projects() {
         return {
             "Hytherium":
                 "Hypixel Network Discord Bot",
+        };
+    }
 
+    get currentlyBuilding() {
+        return {
             "TicketHive":
                 "Discord Ticket bot with Web Dashboard",
         };
