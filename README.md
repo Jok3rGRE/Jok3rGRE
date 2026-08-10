@@ -17,7 +17,7 @@ class Jok3rGR extends Developer {
     }
 
     get about() {
-        return `👋 Hey! I'm Jok3rGR.
+        return `Hey! I'm Jok3rGR.
 
         I build software, Discord bots and web applications.
         I enjoy turning ideas into real, usable projects
