@@ -1,30 +1,73 @@
 <h1 align="center">Hey <img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="40px" />, I'm Jok3rGR</a>!</h1><!-- 👋 -->
 
 <br />
-<!--## I'm a YouTuber, Gamer, and Developer!-->
-<br />
 
-```java
-public class Jok3rGR extends Person implements Gamer, Developer {
-    
-    @Override
-    public void aboutMe() {
-        public String funFact = "I play piano";
+```javascript
+class Jok3rGR extends Developer {
+    constructor() {
+        super();
+
+        this.name = "Jok3rGR";
+        this.location = "Greece";
+        this.roles = [
+            "Software Developer",
+            "Discord Developer",
+            "Web Developer",
+        ];
     }
-    
-    @Override
-    public void codingStuff() {
-        public String[] workingOn = ["Hytherium"];
-        public String[] learning = ["JavaScript", "Discord.JS", "Java"];
-        public String tryingTo = "Be good";
+
+    get about() {
+        return `👋 Hey! I'm Jok3rGR.
+
+        I build software, Discord bots and web applications.
+        I enjoy turning ideas into real, usable projects
+        and constantly improving what I build.`;
     }
-    
+
+    get currentlyBuilding() {
+        return {
+            "Hytherium":
+                "Hypixel Network Discord Bot",
+
+            "TicketHive":
+                "Discord Ticket bot with Web Dashboard",
+        };
+    }
+
+    get stack() {
+        return {
+            languages: [
+                "JavaScript",
+                "TypeScript",
+                "Java"
+            ],
+
+            frontend: [
+                "React",
+                "Next.js",
+                "HTML",
+                "CSS"
+            ],
+
+            backend: [
+                "Node.js",
+                "Discord.js",
+                "MongoDB",
+                "Redis",
+                "REST APIs"
+            ],
+        };
+    }
+
+    get goal() {
+        return "Build things people actually want to use.";
+    }
 }
+
+const author = new Jok3rGR();
+
+console.log(`Thanks for visiting ${author.name}'s profile!`);
 ```
-<!---   🔭 I’m currently working on Cobalt Minecraft Client
--   🌱 I’m currently learning Java, Unity, and more!
--   🤔 I’m trying to make good GUIs in Minecraft Coder Pack
--   ⚡ Fun fact: I like to play guitar!-->
 
 **Languages and Tools:**
 
